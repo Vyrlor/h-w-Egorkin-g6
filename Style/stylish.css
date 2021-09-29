@@ -1,0 +1,30 @@
+.header{
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px 45%;
+    float: contour;
+
+}
+.name{
+float: right;
+    margin: 5px;
+    padding: 30px 29%;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.fl{
+float: right;
+    width: 30%;
+    margin: 5px;
+    padding: 10px 0px 330px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+.inform{
+    float: right;
+    width: 35%;
+    margin: 5px;
+    padding: 10px 0px 400px;
+    border: 2px solid black;
+    font-size: 30px;
+}
