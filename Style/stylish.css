@@ -1,14 +1,19 @@
 .header{
-    background-color: white;
+    display: flex;
+    background-color: darkred;
     border: 2px solid black;
     padding: 20px 45%;
     float: contour;
+    justify-content: space-between;
 
+}
+.bg{
+ background-color: navajowhite;
 }
 .name{
 float: right;
     margin: 5px;
-    padding: 30px 29%;
+    padding: 30px 27%;
     border: 2px solid black;
     font-size: 20px;
 }
@@ -28,15 +33,46 @@ float: right;
     border: 2px solid black;
     font-size: 30px;
 }
-.red{
-    width: 100%;
+.interesting{
+    float:left;
+    display: flex;
+    justify-content: center;
     background-color: darkred;
-}
-.Yel{
     width: 100%;
-    background-color: yellow;
+    border-style: groove;
+    border-color: brown;
+    margin-top: 60px;
 }
-.blu{
+.Subaru, .Audi, .Lancia, .Porsche{
+margin: 20px;
+    height: 100%;
     width: 100%;
-    background-color: cornflowerblue;
+    flex: 1;
+
+}
+.s, .a, .p, .l{
+height: 600px;
+    width: 400px;
+}
+.under{
+    color: white;
+}
+.music{
+    height: 400px;
+    width: 400px;
+}
+.grid{
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+            ". a a . b b . c c ."
+            ". a a . b b . c c ."
+    background-color: rosybrown;
+}
+.JOJI, .EMINEM, .TOP{
+    align-self: center;
+    justify-self: center ;
 }
